@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>full stack developer</pattern>
+        <template>Full Stack Developers are proficient in both front-end and back-end development, responsible for building the user interface, server, and database of software applications. They use a variety of technologies such as Ruby on Rails for server-side logic, React for building user interfaces, and Golang for efficient back-end services.
+            <br/>
+            <link>
+                <text> Click here to learn more about Full Stack Developers.</text>
+                <url>https://www.coursera.org/articles/full-stack-developer</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>full stack developer question</pattern>
+        <template>We think you should consider becoming a Full Stack Developer!
+        <br/>
+        Full Stack Developers are proficient in both front-end and back-end development, responsible for building the user interface, server, and database of software applications. They use a variety of technologies such as Ruby on Rails for server-side logic, React for building user interfaces, and Golang for efficient back-end services.
+            <br/>
+            <link>
+                <text> Click here to learn more about Full Stack Developers.</text>
+                <url>https://www.coursera.org/articles/full-stack-developer</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

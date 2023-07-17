@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>ui ux designer</pattern>
+        <template>A UI/UX Designer is responsible for the user interface and user experience design of an application or a website. Their role is to ensure that the product not only is aesthetically pleasing but also offers a seamless user experience. They design and implement the interface, create user flow diagrams, and gather user feedback to improve the overall user experience.
+            <br/>
+            <link>
+                <text> Click here to learn more about UI/UX Designers.</text>
+                <url>https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>ui ux designer question</pattern>
+        <template>We think you should consider becoming a UI/UX Designer!
+        <br/>
+            A UI/UX Designer is responsible for the user interface and user experience design of an application or a website. Their role is to ensure that the product not only is aesthetically pleasing but also offers a seamless user experience. They design and implement the interface, create user flow diagrams, and gather user feedback to improve the overall user experience.
+            <br/>
+            <link>
+                <text> Click here to learn more about UI/UX Designers.</text>
+                <url>https://www.careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
+

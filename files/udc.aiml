@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Welcome! I'm your friendly Career Guide, specialized for the Department of Computer Science. To get started, please select from the options below: 
+            <button>
+                <text>Discover Top 5 Careers of 2023</text>
+                <postback>top careers</postback>
+            </button>
+            <button>
+                <text>Help Me Choose a Career</text>
+                <postback>find a career</postback>
+            </button>    
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template><srai>HELLO <star/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>HEY</pattern>
+        <template><srai>HELLO <star/></srai></template>
+    </category>
+   
+   <category>
+        <pattern>top careers</pattern>
+        <template>Here are 5 prominent careers in Computer Science that you may consider pursuing with your degree:
+            <button>
+                <text>Full Stack Developer</text>
+                <postback>full stack developer</postback>
+            </button>
+            <button>
+                <text>Cybersecurity Engineer</text>
+                <postback>cybersecurity engineer</postback>
+            </button>
+            <button>
+                <text>UI/UX Designer</text>
+                <postback>ui ux designer</postback>
+            </button>
+            <button>
+                <text>Data Scientist</text>
+                <postback>data scientist</postback>
+            </button>
+            <button>
+                <text>Cloud Engineer</text>
+                <postback>cloud engineer</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>find a career</pattern>
+        <template>I'm going to ask you some questions to provide career options.
+        <br></br><br></br>
+        Are you intrigued by design aspects but find coding challenging?
+            <button>
+                <text>Yes</text>
+                <postback>web question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>programming question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>web question</pattern>
+        <template> Do you have extensive experience working with web applications or APIs?  
+            <button>
+                <text>Yes</text>
+                <postback>web question 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cyber question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>programming question</pattern>
+        <template> Do you prefer working in a development environment?
+            <button>
+                <text>Yes</text>
+                <postback>programming question 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>database question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>web question 2</pattern>
+        <template> Do you enjoy focusing on web application development?
+            <button>
+                <text>Yes</text>
+                <postback>full stack developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>ui ux designer question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>cyber question</pattern>
+        <template> Are you more interested in networks and security applications?
+            <button>
+                <text>Yes</text>
+                <postback>cybersecurity engineer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no suggested job</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>programming question 2</pattern>
+        <template> Do you take pleasure in engineering, designing, installing, testing, and maintaining software systems?
+            <button>
+                <text>Yes</text>
+                <postback>full stack developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cyber question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>database question</pattern>
+        <template>Do you enjoy working with databases to manage, organize, and safeguard data?
+            <button>
+                <text>Yes</text>
+                <postback>data scientist question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>programming question 2</postback>
+            </button>
+        </template>
+    </category>
+
+</aiml>

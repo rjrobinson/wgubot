@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>cloud engineer</pattern>
+        <template>Cloud Engineers are IT professionals responsible for managing an organization's cloud-based systems and processes. This includes setting up architectures using cloud providers, like AWS or Azure, managing cloud environments, and collaborating with development teams to create and deploy software.
+            <br/>
+            <a href="https://www.techtarget.com/searchcloudcomputing/definition/cloud-engineer"> Click here to learn more about Cloud Engineers.</a>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+            <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>cloud engineer question</pattern>
+        <template>We think you should consider becoming a Cloud Engineer!
+            <br/>
+            Cloud Engineers are IT professionals responsible for managing an organization's cloud-based systems and processes. This includes setting up architectures using cloud providers, like AWS or Azure, managing cloud environments, and collaborating with development teams to create and deploy software.
+            <br/>
+            <a href="https://www.techtarget.com/searchcloudcomputing/definition/cloud-engineer"> Click here to learn more about Cloud Engineers.</a>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+            <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
